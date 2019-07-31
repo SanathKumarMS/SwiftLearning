@@ -51,3 +51,90 @@ for (index, value) in biscuits.enumerated()
 {
     print("Index \(index) : " + value)
 }
+
+
+
+//Sets
+
+//Initalise
+var s = Set<String>()
+
+//Insert
+s.insert("Sanath")
+s.insert("Sharad")
+s.insert("Nithin")
+print(s)
+
+//Create from array
+var bis : Set<String> = ["Oreo", "Bourbon", "Hide and Seek"]
+print(bis)
+
+//Count
+bis.count
+
+//Empty
+bis.isEmpty
+
+//Contains
+bis.contains("Oreo")
+
+//Remove
+bis.remove("Oreo")
+print(bis)
+
+//Iterate
+for item in bis
+{
+    print(item)
+}
+
+bis.insert("Oreo")
+print(bis)
+
+for item in bis.sorted()
+{
+    print(item)
+}
+
+
+//Fundamental set operations
+var set1 : Set = [1,2,3,4,5]
+var set2 : Set = [2,4,6,8,10]
+
+//Union
+var set3 = set1.union(set2).sorted()
+
+//Intersection
+var set4 = set1.intersection(set2)
+
+//Difference
+var set5 = set1.subtracting(set2)
+
+//Symmetric Difference
+var set6 = set1.symmetricDifference(set2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
