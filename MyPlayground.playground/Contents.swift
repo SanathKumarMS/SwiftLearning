@@ -34,7 +34,7 @@ if str1 != nil
 }
 
 //Optional Binding
-if var str2 = str1
+if let str2 = str1
 {
     print(str2)
 }
@@ -78,4 +78,10 @@ for char in s3
     print(char)
 }
 
+
+//Range
+for i in 1...5
+{
+    print(i)
+}
 
