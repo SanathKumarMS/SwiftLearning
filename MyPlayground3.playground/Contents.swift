@@ -116,6 +116,53 @@ var set6 = set1.symmetricDifference(set2)
 
 
 
+//Dictionaries
+
+//Create
+
+var d = [Int:String]()
+print(type(of: d))
+
+d[397] = "Sanath"
+d[387] = "Karthik"
+print(d)
+
+
+var capitals : [String: String] = ["India" : "Delhi", "France" : "Paris"]
+print(capitals)
+
+//Count
+capitals.count
+
+//Empty
+capitals.isEmpty
+
+//Add a new item
+capitals["Spain"] =  "Madrid"
+print(capitals)
+
+//Update value
+capitals.updateValue("Barca", forKey: "Spain")
+print(capitals)
+
+//Iterate
+for (key,value) in capitals
+{
+    print("Country : " + key + " Capital : " + value)
+}
+
+for key in capitals.keys
+{
+    print(key)
+}
+
+for value in capitals.values
+{
+    print(value)
+}
+
+let countries = [String](capitals.keys)
+print(countries)
 
 
 
