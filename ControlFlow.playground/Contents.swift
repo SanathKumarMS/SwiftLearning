@@ -80,6 +80,77 @@ case 120... : print("Highest")
 case 20...24 : print("Check")
 default : print("Negative")
 }
+print()
+
+var somePoint = (0,0)
+switch(somePoint)
+{
+case (0,0) : print("Origin")
+case (_,0) : print("On X-axis")
+case (0,_) : print("On Y-axis")
+case (-2...2, -2...2) : print("Inside the box")
+default: print("Outside the box")
+}
+
+
+//Guard statements
+var person : [String : String] = [String :String]()
+person["name"] = "Sanath"
+person["loc"] = "Bengaluru"
+
+func checkName(person : [String : String])
+{
+    guard let name = person["name"] else
+    {
+        return
+    }
+    
+    print("Hi " + name)
+    
+}
+
+checkName(person : person)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
