@@ -119,3 +119,21 @@ func binarySearch(array : [Int], ele : Int)
     print("\(ele) not found")
 }
 binarySearch(array: array, ele: 564)
+
+
+//Bubble sort
+array = [7,4,2,8,5,10]
+
+for i in 0...array.count-1
+{
+    for j in 0...array.count-1-i
+    {
+        if array[j] > array[j+1]
+        {
+            var temp = array[i]
+            array[i] = array[j]
+            array[j] = temp
+        }
+    }
+}
+print(array)
