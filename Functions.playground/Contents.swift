@@ -52,3 +52,70 @@ func minMax(array : [Int]) -> (Int,Int)?
 var array : [Int] = [0,4,7,2,5,9,6]
 var minmax = minMax(array : array)
 
+
+func greet(person : String, from hometown : String)
+{
+    print("Hello " + person + " from " + hometown)
+}
+greet(person: "Sanath", from: "MH")
+
+
+
+func add(_ a : Int, _ b : Int)
+{
+    print(a+b)
+}
+add(5,8)
+
+
+//Default parameters
+func addDef(a : Int, b : Int = 10)
+{
+    print(a+b)
+}
+addDef(a : 5)
+
+
+//In-out parameters
+func swap(a : inout Int, b : inout Int)
+{
+    let temp = a
+    a = b
+    b = temp
+}
+var a = 5
+var b = 9
+swap(a: &a, b: &b)
+print("\(a)  \(b)")
+
+
+
+//Binary search
+array = [2,4,6,8,10]
+
+func binarySearch(array : [Int], ele : Int)
+{
+    var l = 0
+    var r = array.count - 1
+    var mid : Int = 0
+    while(l <= r)
+    {
+        mid = (l+r)/2
+        print("\(mid)")
+        if ele == array[mid]
+        {
+            print("\(ele) found at \(mid)")
+            return
+        }
+        else if ele < array[mid]
+        {
+            r = mid - 1
+        }
+        else
+        {
+            l = mid + 1
+        }
+    }
+    print("\(ele) not found")
+}
+binarySearch(array: array, ele: 564)
