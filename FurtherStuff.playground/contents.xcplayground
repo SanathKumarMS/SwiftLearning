@@ -6,5 +6,7 @@
         <page name='New'/>
         <page name='Quick Sort'/>
         <page name='Properties'/>
+        <page name='Methods'/>
+        <page name='Subscripts'/>
     </pages>
 </playground>
