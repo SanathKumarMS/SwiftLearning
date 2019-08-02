@@ -41,6 +41,7 @@ func qsort(a : inout [Int], l : Int, r :Int)
     }
 }
 
+
 func partition(a : inout [Int], left : Int, right : Int) -> Int
 {
     var pI = left
@@ -111,3 +112,21 @@ func partition(a : inout [Int], l : Int, r : Int) -> Int
 sort(a : &a, l : 0, r : a.count-1)
 print(a)
 */
+
+
+class VideoResolution{
+    var b = 1
+    init(a : Int) {
+        self.b = a
+    }
+    init(){
+        
+    }
+    
+}
+
+let d = VideoResolution(a : 2)
+print(d.b)
+
+let d2 = VideoResolution()
+print(d2.b)
