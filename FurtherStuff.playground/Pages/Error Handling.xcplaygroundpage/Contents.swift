@@ -96,3 +96,21 @@ let s = try? add(a: 4, b: 12)
 
 let sum1 = try! add(a: 4, b: 3)
 
+
+//Defer statements
+func add()
+{
+    var sum = 10
+    defer
+    {
+        print("Deferring")
+    }
+    defer
+    {
+        print("Second Deferring")
+    }
+    print(sum)
+}
+
+add()
+
