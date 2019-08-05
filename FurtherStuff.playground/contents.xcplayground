@@ -9,5 +9,6 @@
         <page name='Methods'/>
         <page name='Subscripts'/>
         <page name='Deinit'/>
+        <page name='Optional Chaining'/>
     </pages>
 </playground>
