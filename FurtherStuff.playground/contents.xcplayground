@@ -8,5 +8,6 @@
         <page name='Properties'/>
         <page name='Methods'/>
         <page name='Subscripts'/>
+        <page name='Deinit'/>
     </pages>
 </playground>
