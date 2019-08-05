@@ -161,6 +161,17 @@ res.rooms.append(kitchen)
 res.rooms.append(dining)
 res.noOfRooms
 
+
+var arr : [Any] = [john,res,kitchen]
+
+for item in arr
+{
+    if let y = item as? Residence
+    {
+        print(y.noOfRooms)
+    }
+}
+
 john.residence = res
 //john.residence?.noOfRooms
 
