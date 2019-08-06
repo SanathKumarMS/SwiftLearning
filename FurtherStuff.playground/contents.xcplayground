@@ -11,5 +11,6 @@
         <page name='Deinit'/>
         <page name='Optional Chaining'/>
         <page name='Error Handling'/>
+        <page name='Nested Types'/>
     </pages>
 </playground>
