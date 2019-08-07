@@ -59,7 +59,7 @@ switch(char)
 {
     case "a" : print("a")
     case "r", "R" : print("r or R")
-               fallthrough
+                    fallthrough
     case "z" : print("z")
     default : print("Not alpha")
 }

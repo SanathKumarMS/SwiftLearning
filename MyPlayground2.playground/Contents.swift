@@ -65,5 +65,5 @@ var storeString = String(beg)
 
 //String comparison
 s1 = "cad"
-var s2 = "cad"
-s1 == s2
+var s3 = "cawd"
+s1 == s3
