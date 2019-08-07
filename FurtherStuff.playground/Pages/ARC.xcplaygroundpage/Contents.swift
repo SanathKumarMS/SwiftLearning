@@ -123,6 +123,8 @@ class City
     }
 }
 
-var india = Country(name: "India", capital: "Delhi")
-print(india.capitalCity.name)
+//var india = Country(name: "India", capital: "Delhi")
+//print(india.capitalCity.name)
+
+
 

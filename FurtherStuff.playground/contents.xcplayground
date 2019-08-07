@@ -14,5 +14,6 @@
         <page name='Nested Types'/>
         <page name='Extensions'/>
         <page name='ARC'/>
+        <page name='Protocols'/>
     </pages>
 </playground>
