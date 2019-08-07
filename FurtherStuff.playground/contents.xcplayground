@@ -15,5 +15,6 @@
         <page name='Extensions'/>
         <page name='ARC'/>
         <page name='Protocols'/>
+        <page name='Revision'/>
     </pages>
 </playground>

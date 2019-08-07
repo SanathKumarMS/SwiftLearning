@@ -19,6 +19,7 @@ class StringAccess
         set
         {
             let idx = s.index(s.startIndex, offsetBy : index)
+            s.remove(at: idx)
             s.insert(newValue, at: idx)
         }
     }
