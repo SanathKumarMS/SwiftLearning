@@ -16,5 +16,7 @@
         <page name='ARC'/>
         <page name='Protocols'/>
         <page name='Revision'/>
+        <page name='Function types'/>
+        <page name='Closures'/>
     </pages>
 </playground>

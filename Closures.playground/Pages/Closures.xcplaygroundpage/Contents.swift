@@ -13,6 +13,7 @@ func backward(_ s1 : Int, _ s2 : Int) -> Bool
     return s1 < s2
 }
 
+	
 var sorteds = s.sorted(by: backward)
 
 

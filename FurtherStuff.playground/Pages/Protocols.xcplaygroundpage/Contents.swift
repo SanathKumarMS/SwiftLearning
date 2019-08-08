@@ -9,6 +9,9 @@ protocol Flying
     func fly()
 }
 
+
+
+
 class Airplane : Flying
 {
     var noOfEngines : Int = 0
@@ -29,19 +32,21 @@ class Bird : Flying
     var wingSpan : Double = 0.0
     var topSpeed : Int = 0
     var height : Int = 24
+    var flying : Flying? = Airplane()
     
     func fly()
     {
         print("The bird flaps its wings to fly")
     }
-    
 }
 
-var plane = Airplane()
-plane.fly()
-plane.height = 50
-print(plane.height)
-print(plane.noOfPassengers)
+var flying : Flying? = Airplane()
+
+//var plane = Airplane()
+//plane.fly()
+//plane.height = 50
+//print(plane.height)
+//print(plane.noOfPassengers)
 
 var crow = Bird()
 crow.fly()
